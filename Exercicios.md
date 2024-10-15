@@ -7,7 +7,8 @@ Exemplo: Olá, mundo!
 Resposta: 4
 
 Codigo:
-def contar_vogais_usuario():
+
+    def contar_vogais_usuario():
     #Define uma string contendo todas as vogais, incluindo vogais acentuadas
     vogais = 'aáàâãeéêiíoóôõuú'
 
@@ -43,8 +44,8 @@ def contar_vogais_usuario():
     #Após o laço ser cencerrado, exibe o total de vogais encontradas em todas as frases digitadas
     print(f'Total de vogais em todas as frases: {total_vogais}')
 
-#Chama a função para iniciar a contagem de vogais com interação do usuário
-contar_vogais_usuario()
+    #Chama a função para iniciar a contagem de vogais com interação do usuário
+    contar_vogais_usuario()
 
 
 Raciocínio do código.
@@ -59,7 +60,8 @@ Exemplo: [1, 2, 3, 4, 5]
 Resposta: O maior par é 4 e o maior ímpar é 5
 
 Código
-def maior_par_impar():
+
+    def maior_par_impar():
     #Recebe a entrada do usuário com números separados por espaços
     #O input é convertido para uma lista de inteiros usando map(int, ...)
     numeros = list(map(int, input("Digite os números separados por espaços: ").split()))
@@ -79,8 +81,8 @@ def maior_par_impar():
     #Exibe o maior número par e o maior número ímpar (ou None se não houver)
     print(f'O maior par é {maior_par} e o maior ímpar é {maior_impar}')
 
-#Chama a função para que o usuário possa inserir números e ver o resultado
-maior_par_impar()
+    #Chama a função para que o usuário possa inserir números e ver o resultado
+    maior_par_impar()
 
 
 
@@ -97,7 +99,8 @@ Exemplo: "hello", "world"
 Resposta: Não são anagramas
 
 Código
-def sao_anagramas():
+
+    def sao_anagramas():
     #Recebe a primeira string do usuário
     string1 = input("Digite a primeira palavra ou frase: ")
 
@@ -122,8 +125,8 @@ def sao_anagramas():
         #Se as strings ordenadas forem diferentes, não são anagramas
         print("Não são anagramas")
 
-#Chama a função para o usuário testar se duas strings são anagramas
-sao_anagramas()
+    #Chama a função para o usuário testar se duas strings são anagramas
+    sao_anagramas()
 
 Raciocínio do código.
 Entrada do usuário: São coletadas duas strings através da função input().

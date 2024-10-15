@@ -1,4 +1,4 @@
-Candidato: Gabriel Lopes
+Candidato: Gabriel Lopes;
 Vaga: Estágio em Desenvolvimento de Software de Soluções Digitais para Agricultura de Precisão
 
 
